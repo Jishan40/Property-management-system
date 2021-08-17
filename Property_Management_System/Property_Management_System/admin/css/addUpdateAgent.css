@@ -1,0 +1,100 @@
+
+.main{
+    font-family:"Poppins", "Arial", "Helvetica Neue", sans-serif;
+    background:#fcf6f5ff;
+    padding:30px 40px 30px 30px;;
+    width: 650px;
+    min-height: 650px;
+    position: relative;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    border-radius:15px;
+    font-size: 18px;
+    color: #555;
+    margin: 30px auto;
+    box-shadow: 10px 10px 10px #aaaaaa;
+}
+.main .headTop{
+    text-align: center;
+    color:#525252;
+    padding-bottom: 20px;
+}
+.main p{
+    text-align: center;
+    color:green;
+}
+.ibox{
+    line-height: 40px;
+    border-radius:5px;
+    font-size: 16px;
+    width: 300px;
+    padding:0px 10px;
+}
+.pimg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.align{
+    float:right;
+}
+form div span{
+    font-family: 'Teko', sans-serif;
+}
+.nwd{
+    width: 147px;
+    line-height: 40px;
+    border-radius:5px;
+    font-size: 16px;
+    padding:0px 10px;
+}
+.fname{
+    margin-right:3px;
+}
+.lname{
+    margin-left:3px;
+}
+.back{
+    text-decoration: none;
+    background: #569d11;
+    line-height: 40px;
+    padding:9px 50px;
+    transition:0.4s;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid;
+    margin-right: 30px;
+}
+.btn{
+    margin-right: 30px;
+    background: #569d11;
+    line-height: 40px;
+    padding: 0 50px;
+    transition:0.3s;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    border: 1px solid;
+    align-items:center;
+}
+.all-btn{
+    margin: 0;
+}
+.btn:hover, .back:hover{
+    border-color: #569d11;
+    transition: .5s;
+}
+label{
+    line-height: 40px;
+}
+.err-info{
+    color:red;
+}
